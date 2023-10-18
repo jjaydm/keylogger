@@ -40,4 +40,4 @@ def serve_log():
     return send_file('log.txt')
 
 if __name__ == '__main__':
-    app.run(host='PUT_IP_HERE', port='PORT_HERE')
+    app.run(host='PUT_VICTIMIP_HERE', port='PORT_HERE')
