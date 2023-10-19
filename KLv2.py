@@ -1,6 +1,5 @@
 from pynput.keyboard import Listener as A
 import re as B
-from flask import Flask as C, send_file as D
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
